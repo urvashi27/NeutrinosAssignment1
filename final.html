@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+    <link rel="stylesheet" type="text/css" href="A1.css">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   
+</head>
+<body>
+	<nav class="navbar navbar-default">
+	</nav>
+	<form>
+        <div class="container" id="c2">
+	 <div class="container" >
+
+
+      <div class="row">
+    		<div class="col-xs-1 col-sm-2 col-md-3 col-lg-3" id="xys"></div>
+
+    		<div class="col-xs-10 col-sm-8 col-md-6 col-lg-6">
+
+    		  <div class="row">
+    		  	<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+    		  		<h3> Blog Asssignment </h3>
+    		  	</div>
+    		  	<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><br>
+    		  		<a href="Assignment12.html"><button type="button" align="right" class="btn btn-success btn-right"> Create </button></a>
+    		  	</div>
+    		  </div> <!-- row end here -->
+<br><br>
+    		  <div class="row">
+    		  	<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+    		  		<input type="text" placeholder="Title" class="form-control" id="t1" >
+    		  	</div>
+
+    		  	<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="title-icon">
+    		  		<a href="Assignment12.html"><button type="button" class="btn btn-primary">
+          <span class="glyphicon glyphicon-edit"></span> Edit</button></a>
+        
+    		  	</div>
+    		  </div> <br>
+    		  <div class="row">
+    		  	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                   <textarea id="ta" class="form-control" placeholder="content...."></textarea>
+    		  	</div>
+    		  </div>
+
+    		</div>
+    		<div class="col-xs-1 col-sm-2 col-md-3 col-lg-3"></div>
+    	</div><!--  main row end here -->
+    </div>  <!-- container end here -->
+
+<br>
+
+    <div class="container">
+    
+    	<div class="row">
+    		<div class="col-xs-1 col-sm-2 col-md-3 col-lg-3"></div>
+
+    		<div class="col-xs-10 col-sm-8 col-md-6 col-lg-6">
+
+    		  <div class="row">
+    		  	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    		  		<h3>Blog 1 </h3>
+    		  	</div>
+    		  </div> <!-- row end  -->
+<br>
+    		  <div class="row">
+    		  	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    		  		<input type="text" placeholder="Title" class="form-control" id="title2">
+
+    		  	</div>
+    		  	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" id="title-icon"></div>
+    		  </div> <br>
+    		  <div class="row">
+    		  	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+    		  		<textarea class="form-control" placeholder="content....." id="text2"></textarea>
+    		  		<br>
+    		  		<!-- <button type="reset" class="btn btn-primary">Reset</button> -->
+    		  		<!-- <button type="save" onClick="parser()" class="btn btn-primary">Save</button> -->
+
+    		  	</div>
+
+    		  	
+    		  </div>
+
+    		</div>
+    		<div class="col-xs-1 col-sm-2 col-md-3 col-lg-3"></div>
+    	</div><!--  main row end  -->
+    </div>  <!-- container end here -->
+
+
+    <div class="container">
+    
+    	<div class="row">
+    		<div class="col-xs-1 col-sm-2 col-md-3 col-lg-3"></div>
+
+    		<div class="col-xs-10 col-sm-8 col-md-6 col-lg-6">
+
+    		  <div class="row">
+    		  	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    		  		<h3>Blog 2 </h3>
+    		  	</div>
+    		  </div> <!-- row end  -->
+<br>
+    		  <div class="row">
+    		  	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    		  		<input type="text" placeholder="Title" class="form-control" id="title3">
+
+    		  	</div>
+    		  	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" id="title-icon"></div>
+    		  </div> <br>
+    		  <div class="row">
+    		  	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+    		  		<textarea class="form-control" placeholder="content....." id="text3"></textarea>
+    		  		<br>
+    		  		<button type="reset" class="btn btn-primary">Reset</button>
+    		  		<!-- <button type="save" onClick="parser()" class="btn btn-primary">Save</button> -->
+
+    		  	</div>
+
+    		  	
+    		  </div>
+
+    		</div>
+    		<div class="col-xs-1 col-sm-2 col-md-3 col-lg-3"></div>
+    	</div><!--  main row end  -->
+    </div>  <!-- container end here -->
+</div>
+    
+    </form>
+    <script >
+    	document.getElementById("title2").value=localStorage.getItem("textvalue");
+ 	document.getElementById("text2").value=localStorage.getItem("textvalue1");
+    	// document.getElementById("title3").value=localStorage.getItem("textvalue");
+ 	// document.getElementById("text3").value=localStorage.getItem("textvalue1");
+    </script>
+    
+ 
+  </div>
+ </div>
+ </div>
+</body>
+</html>

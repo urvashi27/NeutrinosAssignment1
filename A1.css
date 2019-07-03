@@ -1,0 +1,34 @@
+
+h3
+{
+	font-family:sans-serif;
+	font-weight:bold;
+	
+}
+#text
+{
+	border:2px groove;
+
+}
+#title
+{
+	border:2px groove;
+}
+#c1
+{
+	border-style:ridge;
+	background-color:powderblue;
+	height:300px;
+
+}
+#c2
+{
+	background-color:powderblue;
+	border-style:ridge;
+	height: 700px;
+}
+.form-control
+{
+	border:2px solid;
+}
+
